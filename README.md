@@ -34,3 +34,7 @@ A widget can show several entities: pick a device, then tick the entities you wa
 ## Building
 
 Run `build.cmd`. It uses the C# compiler included with Windows, so no SDK is needed. That compiler is C# 5, so the source avoids newer language features.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
