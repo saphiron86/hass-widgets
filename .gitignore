@@ -1,0 +1,7 @@
+# Build output. Contains config\settings.json with your Home Assistant URL and token.
+dist/
+
+# Any config folder, wherever the exe was run from
+config/
+*.tmp
+*.bad
