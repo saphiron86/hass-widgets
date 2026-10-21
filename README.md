@@ -1,8 +1,11 @@
 # HASS Widgets
 
+> [!WARNING]
+> **This project is vibe coded.** It was written by an AI coding assistant (Claude) from plain-language requests, and the code has not had a line-by-line human review. It works for me, but use it at your own risk, and read the code before trusting it with your Home Assistant access token.
+
 Small desktop widgets for Windows that show Home Assistant entities.
 
-- Single portable exe (`dist\HassWidgets.exe`, about 55 KB). Nothing to install: it uses the .NET Framework 4.8 that is part of Windows 10 and 11.
+- Single portable exe (`dist\HassWidgets.exe`, under 100 KB). Nothing to install: it uses the .NET Framework 4.8 that is part of Windows 10 and 11.
 - Settings live in a `config` folder next to the exe (`config\settings.json`). Copy the exe and that folder to move everything.
 - Talks to Home Assistant over its REST API with a long-lived access token.
 
